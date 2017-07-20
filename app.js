@@ -2,7 +2,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var userAgent = require('express-useragent')
+var useragent = require('express-useragent');
 
 
 // instantiate express for the app and bodyParser and Cors
